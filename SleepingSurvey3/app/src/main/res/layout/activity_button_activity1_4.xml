@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".ButtonActivity1_1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="4. 현재 수면 양상에 관하여 얼마나 만족하게 계십니까?"
+        android:id="@+id/textView2"
+        android:textStyle="bold"
+        android:layout_marginBottom="14dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="다음"
+        android:id="@+id/next_button1_4"
+        android:clickable="false"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/before_button1_4"
+        android:onClick="goNextPage" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="이전"
+        android:id="@+id/before_button1_4"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignTop="@+id/next_button"
+        android:layout_alignEnd="@+id/radioButton5"
+        android:onClick="goBeforePage" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textView2"
+        android:layout_above="@+id/next_button1_4">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="매우 만족"
+            android:id="@+id/radioButton1"
+            android:layout_below="@+id/textView2"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="17dp"
+            android:checked="false" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="약간 만족"
+            android:id="@+id/radioButton2"
+            android:layout_below="@+id/radioButton1"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="17dp"
+            android:checked="false" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="그저 그렇다"
+            android:id="@+id/radioButton3"
+            android:layout_below="@+id/radioButton2"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="17dp"
+            android:checked="false" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="약간 불만족"
+            android:id="@+id/radioButton4"
+            android:layout_below="@+id/radioButton3"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="17dp"
+            android:checked="false" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="매우 불만족"
+            android:id="@+id/radioButton5"
+            android:layout_below="@+id/radioButton4"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="17dp"
+            android:checked="false" />
+    </RadioGroup>
+
+</RelativeLayout>
