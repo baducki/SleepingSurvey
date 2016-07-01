@@ -21,7 +21,24 @@
         <activity android:name=".ButtonActivity1_4" />
         <activity android:name=".ButtonActivity1_5" />
         <activity android:name=".ButtonActivity1_6" />
-        <activity android:name=".ButtonActivity1_7"></activity>
+        <activity android:name=".ButtonActivity1_7" />
+        <activity android:name=".ButtonActivity2_1" />
+        <activity android:name=".ButtonActivity3_1" />
+        <activity android:name=".ButtonActivity3_2" />
+        <activity android:name=".ButtonActivity3_3" />
+        <activity android:name=".ButtonActivity3_4" />
+        <activity android:name=".ButtonActivity3_5" />
+        <activity android:name=".ButtonActivity3_6" />
+        <activity android:name=".ButtonActivity3_7" />
+        <activity android:name=".ButtonActivity3_8" />
+        <activity android:name=".ButtonActivity4_1" />
+        <activity android:name=".ButtonActivity4_2" />
+        <activity android:name=".ButtonActivity4_3" />
+        <activity android:name=".ButtonActivity4_4" />
+        <activity android:name=".ButtonActivity4_5" />
+        <activity android:name=".ButtonActivity4_6" />
+        <activity android:name=".ButtonActivity4_7" />
+        <activity android:name=".ButtonActivity4_8"></activity>
     </application>
 
 </manifest>

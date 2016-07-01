@@ -35,7 +35,8 @@
         android:text="수면위생 자가 체크"
         android:id="@+id/main_button2"
         android:layout_above="@+id/main_button3"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        android:onClick="setMainButtonView" />
 
     <Button
         android:layout_width="fill_parent"
@@ -43,7 +44,8 @@
         android:text="취침 전 일기"
         android:id="@+id/main_button3"
         android:layout_above="@+id/main_button4"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:onClick="setMainButtonView" />
 
     <Button
         android:layout_width="fill_parent"
@@ -51,6 +53,7 @@
         android:text="기상 후 일기"
         android:id="@+id/main_button4"
         android:layout_centerVertical="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:onClick="setMainButtonView" />
 
 </RelativeLayout>
